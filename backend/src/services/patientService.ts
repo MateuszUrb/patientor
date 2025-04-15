@@ -16,7 +16,7 @@ function getPatientsEntries(): Patient[] {
   );
 }
 
-function addPatient(patient: Patien): Patient {
+function addPatient(patient: NewPatient): Patient {
   const id = uuid();
   const newPatient = {
     id,
